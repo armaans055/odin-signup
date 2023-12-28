@@ -174,11 +174,4 @@ form{
     transition: .6s;
 }
 
-.username-input:valid,
-.email-input:valid,
-.password-input:valid,
-.confirm-pass-input:valid,
-.phone-number-input:valid{
-    border-color: lightgreen;
-}
 
