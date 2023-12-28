@@ -52,6 +52,7 @@ body{
     height: 100%;
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: Nunito, 'Times New Roman'
@@ -78,8 +79,8 @@ body{
 .right-side{
     height: 100%;
     width: 60%;
-    border: 1px solid black;
     border-radius: 8px;
+    border: 2px solid black;
 }
 
 .selling-point{
@@ -94,6 +95,9 @@ body{
 }
 .right-side{
     display: flex;
+}
+.logo{
+    padding-bottom: 50px;
 }
 form{
     height: 100%;
@@ -115,6 +119,8 @@ form{
 
 .terms1{
     font-size: .4em;
+    color:black;
+    font-weight: 800;
 }
 
 .username,
@@ -133,9 +139,37 @@ form{
     padding: 6px;
     height: 5vh;
     width: 40vh;
-    border: 1px solid darkblue;
+    border: 2px solid darkblue;
     border-radius: 8px;
 }
 
+.sign-up{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: blue;
+    border-color: blue;
+    border-radius: 10px;
+    margin: 10px;
+    color:white;
+}
 
+.sign-up:hover{
+    transform: scale(1.05);
+    transition: .6s;
+}
+
+.username-input:hover,
+.email-input:hover,
+.password-input:hover,
+.confirm-pass-input:hover,
+.phone-number-input:hover{
+    transform: scale(1.02);
+    transition: .6s;
+}
+.selling-point:hover{
+    transform: scale(1.02);
+    transition: .6s;
+}
 
