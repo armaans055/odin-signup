@@ -19,4 +19,3 @@ let verifyPassVal = function(){
 
 password.onchange = verifyPassVal;
 verifyPass.onkeyup = verifyPassVal;
-console.log("test")
